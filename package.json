@@ -1,0 +1,25 @@
+{
+  "name": "personal_profolio_website",
+  "version": "1.0.0",
+  "description": "The website that walks through my personal experiences",
+  "main": "chart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "1",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kaitlyntian/homepage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaitlyntian/homepage/issues"
+  },
+  "homepage": "https://github.com/kaitlyntian/homepage#readme"
+}
