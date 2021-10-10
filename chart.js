@@ -34,7 +34,7 @@ var svg = d3
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var x = d3.scale
-  .linear()
+  .scaleLinear()
   .range([0, width])
   .domain([
     0,
