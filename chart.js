@@ -33,7 +33,7 @@ var svg = d3
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-var x = d3.scale
+var x = d3
   .scaleLinear()
   .range([0, width])
   .domain([
@@ -43,24 +43,15 @@ var x = d3.scale
     }),
   ]);
 
-var y = d3.scale
-  .ordinal()
-  .rangeRoundBands([height, 0], 0.1)
+var y = d3
+  .scaleBand()
+  .range([height, 0])
+  .padding(0.1)
   .domain(
     data.map(function (d) {
       return d.language;
     })
   );
-
-//make y axis to show bar names
-var yAxis = d3.svg
-  .axis()
-  .scale(y)
-  //no tick marks
-  .tickSize(0)
-  .orient("left");
-
-svg.append("g").attr("class", "y axis").call(yAxis);
 
 var bars = svg
   .selectAll(".bar")
@@ -77,7 +68,7 @@ bars
   .attr("y", function (d) {
     return y(d.language);
   })
-  .attr("height", y.rangeBand())
+  .attr("height", y.bandwidth())
   .attr("x", 0)
   .attr("width", function (d) {
     return x(d.skill_level);
@@ -88,7 +79,7 @@ bars
   .append("text")
   .attr("class", "label")
   .attr("y", function (d) {
-    return y(d.language) + y.rangeBand() / 2 + 10;
+    return y(d.language) + 30;
   })
   .attr("x", function (d) {
     return x(d.skill_level) + 15;
@@ -96,3 +87,8 @@ bars
   .text(function (d) {
     return d.skill_level;
   });
+
+svg
+  .append("g")
+  // .attr("transform", "translate(-70," + 0 + ")")
+  .call(d3.axisLeft(y));
