@@ -90,5 +90,4 @@ bars
 
 svg
   .append("g")
-  // .attr("transform", "translate(-70," + 0 + ")")
   .call(d3.axisLeft(y));
