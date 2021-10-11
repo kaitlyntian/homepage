@@ -26,7 +26,7 @@ Set up environment and run with reload
 - chart.js: the d3 javascript file used in the experience page
 
 ### [Presentation link](https://www.canva.com/design/DAEsd-Y5FwQ/zA_te66GnCuvTKlzZC6U4Q/view?utm_content=DAEsd-Y5FwQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
-### [Youtube demo link]()
+### [Youtube demo link](https://youtu.be/AXFt7bMexKM)
 
 ## author
 - Kaiwen(Kaitlyn) Tian
