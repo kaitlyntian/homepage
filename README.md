@@ -28,6 +28,8 @@ Set up environment and run with reload
 ### [Presentation link](https://www.canva.com/design/DAEsd-Y5FwQ/zA_te66GnCuvTKlzZC6U4Q/view?utm_content=DAEsd-Y5FwQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 ### [Youtube demo link](https://youtu.be/AXFt7bMexKM)
 
+## Screenshots
+![Hom page](https://raw.githubusercontent.com/kaitlyntian/homepage/main/images/header_screenshoot.PNG)
 ## author
 - Kaiwen(Kaitlyn) Tian
 - email:kaitlyntian0312@gmail.com
