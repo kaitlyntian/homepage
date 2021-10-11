@@ -30,6 +30,7 @@ Set up environment and run with reload
 
 ## Screenshots
 ![Hom page](https://raw.githubusercontent.com/kaitlyntian/homepage/main/images/header_screenshoot.PNG)
+![Experience Page](https://github.com/kaitlyntian/homepage/blob/main/images/experience_rundown.PNG?raw=true)
 ## author
 - Kaiwen(Kaitlyn) Tian
 - email:kaitlyntian0312@gmail.com
