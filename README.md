@@ -25,7 +25,10 @@ Set up environment and run with reload
 - eslintrc.js: config file for the project
 - chart.js: the d3 javascript file used in the experience page
 
-# author
+### [Presentation link](https://www.canva.com/design/DAEsd-Y5FwQ/zA_te66GnCuvTKlzZC6U4Q/view?utm_content=DAEsd-Y5FwQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+### [Youtube demo link]()
+
+## author
 - Kaiwen(Kaitlyn) Tian
 - email:kaitlyntian0312@gmail.com
 - linkedin: https://www.linkedin.com/in/kaitlyntian/
