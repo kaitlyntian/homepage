@@ -1,3 +1,13 @@
+// the linebreak appears to be CRLF instead of LF only (ie Unix style), so eslint shows errors
+// if your prettier was setup correctly but still getting CRLF linebreaks, I think this might help?
+// https://stackoverflow.com/questions/63619344/change-crlf-to-lf-in-vcode-because-eslint-give-me-error
+
+// Eslint also shows d3 as undefined, FYI.
+// One way to resolve this MAY BE to do something like this
+// const d3 = window.d3;
+// this SHOULD allow you to import the scripts in your scripts tag in your html file
+// correct me if I am wrong
+
 var data = [
   { language: "Python", skill_level: 8 },
   { language: "SQL", skill_level: 9 },
