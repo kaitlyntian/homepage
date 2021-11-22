@@ -4,7 +4,7 @@ html {
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   margin: none;
   padding: none;
 }
@@ -34,8 +34,8 @@ nav,
 li,
 a,
 footer {
-  font-size: 20px;
-  line-height: 1;
+  font-size: 25px;
+  line-height: 2;
   letter-spacing: 1px;
   color: #7c6668;
 }
@@ -58,48 +58,77 @@ hr {
   color: #7c6668;
 }
 
-
 .outer-header {
+  height: 100vh;
   background-color: #ffd9a4;
+  position: relative;
+  overflow: hidden;
 }
 
-.image-holder {
-  position: relative;
-  height: 600px;
+.header-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  height: 100vh;
+  margin-left: 70px;
+  width: 400px;
+  object-fit: cover;
 }
 
 .inner-header {
   background-color: #626b63;
-  margin: 0px;
-  padding: 0px;
-  z-index: 1;
+  min-height: 350px;
 }
 
-.header-image {
-  width: 400px;
-  height: 600px;
-  object-fit: cover;
-  max-width: 100%;
-  z-index: 2;
-  position: absolute;
-  margin-left: 10%;
-}
-
-.head_logo{
-  width: 56px;
-  height: 56px;
-  object-fit: contain;
+.linked-accounts {
+  margin-right: 100px;
+  justify-content: end;
+  gap: 10px;
 }
 
 .logo {
-  top: 20px;
-  left: 100px;
-  right: 0px;
-  height: 15vh;
-  z-index: 2;
-  padding: 0px;
-  position: relative;
-  float: right;
+  height: 60px;
+  width: 60px;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .header-image {
+    width: 350px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .header-image {
+    width: 50%;
+    margin: 0;
+    left: 0;
+  }
+  .linked-accounts {
+    margin-right: 0;
+    justify-content: start;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .header-image {
+    width: 50%;
+    left: 0;
+  }
+  .logo {
+    height: 45px;
+    width: 45px;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .header-image {
+    display: none;
+  }
 }
 
 .experience_text {
@@ -116,9 +145,6 @@ hr {
 .header-text {
   color: white;
   font-family: "Oswald", sans-serif;
-  position: relative;
-  left: 35vw;
-  top: 5vh;
 }
 
 .project {
@@ -139,7 +165,6 @@ hr {
 }
 
 #casual_img {
-  max-width: 100%;
   min-width: 50%;
   height: auto;
 }
