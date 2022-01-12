@@ -92,6 +92,11 @@ hr {
   width: 60px;
 }
 
+.biglogo{
+  height: 150px;
+  float: right;
+}
+
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
   .header-image {
