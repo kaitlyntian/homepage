@@ -165,8 +165,8 @@ hr {
 }
 
 .project_img {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 350px;
   object-fit: contain;
 }
 
