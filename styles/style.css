@@ -53,9 +53,13 @@ hr {
 }
 
 .subtitle {
-  text-align: center;
-  font-size: 50px;
   color: #7c6668;
+  text-align: left;
+}
+
+.bodytext {
+  color: #3A3B3C;
+  text-align: left;
 }
 
 .outer-header {
@@ -162,6 +166,8 @@ hr {
 
 .project_img {
   height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 #bigtitle {
