@@ -27,6 +27,11 @@ main {
   background-color: #e6e2d4;
 }
 
+nav{
+  background-color: #D5CFBE;
+  color: #7c6668;
+}
+
 p,
 li,
 ul,
@@ -37,8 +42,7 @@ footer {
   font-size: 25px;
   line-height: 2;
   letter-spacing: 1px;
-  color: #7c6668;
-}
+  color: #7c6668;}
 
 text {
   font: 25px "Open Sans", sans-serif;
@@ -53,9 +57,13 @@ hr {
 }
 
 .subtitle {
-  text-align: center;
-  font-size: 50px;
   color: #7c6668;
+  text-align: left;
+}
+
+.bodytext {
+  color: #3A3B3C;
+  text-align: left;
 }
 
 .outer-header {
@@ -161,7 +169,9 @@ hr {
 }
 
 .project_img {
-  height: 100%;
+  height: auto;
+  width: 500px;
+  object-fit: contain;
 }
 
 #bigtitle {
